@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  background-color: rgb(49, 194, 254);
+  text-align: center;
+  padding: 0.3rem;
+  position: fixed;
+  width: 100%;
+}
+
+header a {
+  color: white;
+  margin-top: 0;
+}
+
+div {
+  padding: 0 0.4rem 0.5rem 0.4rem;
+}
+
+input,
+textarea {
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(49, 194, 254);
+  color: white;
+  padding: 0.6rem 3.8rem;
+  margin-top: 1rem;
+}
+
+.containerMarginTop {
+  margin-top: 2rem;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.smallPicSize {
+  width: 4rem;
+}
